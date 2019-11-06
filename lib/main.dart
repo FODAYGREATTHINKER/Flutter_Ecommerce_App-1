@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
+//Local imports
+import 'package:upwork_diego/components/horizontal_categories_lv.dart';
+
 void main(){
   runApp(
     MaterialApp(
@@ -125,7 +128,16 @@ class _HomePageState extends State<HomePage> {
       ),
       body: new ListView(
         children: <Widget>[
-          imageCarousel
+          //image carousel begins here
+          imageCarousel,
+          //padding widget
+          new Padding(padding: const EdgeInsets.all(8.0),
+          child: new Text('Categories'),),
+
+          //Horizontal 'Categories' List View begins here
+          HorizontalCategoriesList(),
+
+
         ],
       ),
     );

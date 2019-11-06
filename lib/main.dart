@@ -3,6 +3,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 
 //Local imports
 import 'package:upwork_diego/components/horizontal_categories_lv.dart';
+import 'package:upwork_diego/components/products.dart';
 
 void main(){
   runApp(
@@ -32,6 +33,7 @@ class _HomePageState extends State<HomePage> {
         AssetImage('images/w1.jpeg'),
         AssetImage('images/w3.jpeg'),
         AssetImage('images/w4.jpeg'),
+        AssetImage('images/IMG_1266.jpg'),
       ],
       autoplay: false,
       animationCurve: Curves.fastOutSlowIn,
@@ -137,6 +139,15 @@ class _HomePageState extends State<HomePage> {
           //Horizontal 'Categories' List View begins here
           HorizontalCategoriesList(),
 
+          //padding widget
+          new Padding(padding: const EdgeInsets.all(20.0),
+            child: new Text('Recent Products'),),
+
+          //Recent products's grid view
+          Container(
+            height: 320.0,
+              child: Products(),
+          )
 
         ],
       ),

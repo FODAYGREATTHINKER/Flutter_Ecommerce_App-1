@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
       appBar: new AppBar(
         elevation: 0.0,
         backgroundColor: Colors.pinkAccent,
-        title: Text('Diego-UpWork'),
+        title: Text('Flutter Shop'),
         centerTitle: true,
         actions: <Widget>[
           new IconButton(icon: Icon(Icons.search,color: Colors.white), onPressed: (){}),

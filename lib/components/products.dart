@@ -68,11 +68,11 @@ class SingleProduct extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                       title: Text(
-                        "\$$productPrice",
+                        "\€$productPrice",
                         style: TextStyle(
                             color: Colors.redAccent, fontWeight: FontWeight.w800),
                       ),
-                      subtitle: Text("\$$productOldPrice",
+                      subtitle: Text("\€$productOldPrice",
                       style: TextStyle(
                           color: Colors.black54,
                           fontWeight: FontWeight.w800,

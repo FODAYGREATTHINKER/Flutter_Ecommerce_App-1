@@ -1,4 +1,4 @@
-# upwork_diego
+# Flutter Ecommerce Android & iOS App
 
 A new Flutter application.
 
